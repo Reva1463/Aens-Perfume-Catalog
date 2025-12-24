@@ -168,20 +168,65 @@ Aens Perfume Catalog
 │  ├─ script.js
 │
 ├─ FRONTEND
+│  ├─ Index.html
+│  ├─ style.css
+│  ├─ script.js
 │  ├─ AENS LOGO.jpeg
 │  ├─ AENS_LOGO-removebg-preview.png
 │  ├─ api.js
 │  ├─ BERRY.jpg
 │  ├─ BLUE NIGHT.jpg
 │  ├─ COOLMAN.jpg
-│  ├─ Index.html
 │  ├─ LUCKY.jpg
 │  ├─ package-lock.json
 │  ├─ PINKFON.jpg
 │  ├─ ROMANCE.jpg
-│  ├─ script.js
-│  ├─ style.css
 │
 ├─ uploads
 ├─ package-lock.json
 ├─ README.md
+```
+
+🚀 Cara Menjalankan Proyek
+
+1. Instal terlebih dahulu:
+   - Node.js (versi 14 atau lebih tinggi)
+     Download dari: https://nodejs.org/
+   - MongoDB (pilih salah satu):
+     Lokal: https://www.mongodb.com/try/download/community ,
+     Cloud (gratis): https://www.mongodb.com/cloud/atlas/register
+2. Extract ZIP
+   Ekstrak proyek ke folder mudah diakses
+3. Setup Backend
+   - Buka terminal di folder backend.
+   - Install dependencies:
+```text/
+npm install
+```
+4. Buat file .env di folder backend dengan isi:
+```/
+PORT=5001
+MONGODB_URI=mongodb://localhost:27017/aens_perfume
+JWT_SECRET=aens_perfume_secret_key_2025
+FRONTEND_URL=http://localhost:3000
+```
+Jika pakai MongoDB Atlas, ganti "MONGODB_URI" dengan connection string dari Atlas
+5. Pastikan MongoDB sedang berjalan
+6. Jalankan seeding database:
+```/
+npm run seed
+```
+7. Jalankan  server:
+```/
+npm start
+```
+JANGAN TUTUP TERMINAL INI
+
+8. Jalankan Frontend
+  - Buka folder frontend
+  - Klik kanan "Index.html" open with browser
+
+
+
+
+  
