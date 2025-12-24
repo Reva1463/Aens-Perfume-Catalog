@@ -1,4 +1,4 @@
-<img width="279" height="54" alt="image" src="https://github.com/user-attachments/assets/a8fa5b6f-aee8-4188-9dc5-903e63cd27d4" /># Aens-Perfume-Catalog
+Aens-Perfume-Catalog
 
 Ini adalah website landing page dan katalog produk yang responsif untuk AENS PERFUME. Proyek ini dibangun dengan HTML, CSS, dan JavaScript untuk menampilkan koleksi produk secara elegan dan interaktif.
 
@@ -15,7 +15,7 @@ Aens Perfume Catalog
 ├─ aens-perfume-backend/
 │  ├─ node_modules
 │     ├─ .bin
-│     ├─ @mongob-js
+│     ├─ @mongodb-js
 │     ├─ @types
 │     ├─ accepts
 │     ├─ anymatch
