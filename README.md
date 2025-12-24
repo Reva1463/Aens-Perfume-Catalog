@@ -10,7 +10,7 @@ Navigasi Mobile-First: Menu hamburger yang intuitif untuk navigasi di layar keci
 Efek Visual Modern: Efek hover yang halus pada produk dan header transparan yang berubah warna saat scroll.
 Penguncian Scroll: Latar belakang halaman terkunci saat menu navigasi atau modal produk terbuka untuk pengalaman pengguna yang lebih baik.
 
-aens-perfume/
+```aens-perfume/
 ├─ README.md
 ├─ frontend/
 │  ├─ index.html
