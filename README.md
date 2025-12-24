@@ -10,16 +10,26 @@ Navigasi Mobile-First: Menu hamburger yang intuitif untuk navigasi di layar keci
 Efek Visual Modern: Efek hover yang halus pada produk dan header transparan yang berubah warna saat scroll.
 Penguncian Scroll: Latar belakang halaman terkunci saat menu navigasi atau modal produk terbuka untuk pengalaman pengguna yang lebih baik.
 
-Struktur File
-aens-perfume-catalog/
+aens-perfume/
+├─ README.md
 ├─ frontend/
 │  ├─ index.html
 │  ├─ style.css
 │  ├─ script.js
 │  └─ assets/
-├─ backend/
-│  ├─ server.js
-│  ├─ seed.js
-│  ├─ package.json
-│  └─ aens_perfume.products.json
-└─ README.md
+│     ├─ AENS_LOGO.jpeg
+│     ├─ BERRY.jpg
+│     ├─ BLUE NIGHT.jpg
+│     ├─ COOLMAN.jpg
+│     ├─ LUCKY.jpg
+│     ├─ PINKFON.jpg
+│     └─ ROMANCE.jpg
+│
+└─ backend/
+   ├─ package.json
+   ├─ package-lock.json
+   ├─ server.js
+   ├─ seed.js
+   ├─ aens_perfume.products.json
+   └─ README.md
+
