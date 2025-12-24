@@ -11,9 +11,26 @@ Efek Visual Modern: Efek hover yang halus pada produk dan header transparan yang
 Penguncian Scroll: Latar belakang halaman terkunci saat menu navigasi atau modal produk terbuka untuk pengalaman pengguna yang lebih baik.
 
 ```aens-perfume/
-├─ README.md
-├─ frontend/
-│  ├─ index.html
+Aens Perfume Catalog
+├─ aens-perfume-backend/
+│  ├─ node_modules
+│     ├─ .bin
+│         ├─ mime
+│         ├─ mime.cmd
+│         ├─ mimemime.ps1
+│         ├─ mkdirp
+│         ├─ mkdirp.cmd
+│         ├─ mkdirp.ps1
+│         ├─ nodemon
+│         ├─ nodemon.cmd
+│         ├─ nodemon.ps1
+│         ├─ nodetouch
+│         ├─ nodetouch.cmd
+│         ├─ nodetouch.ps1
+│         ├─ semver
+│         ├─ semver.cmd
+│         ├─ semver.ps1
+│     ├─ @mongodb-js
 │  ├─ style.css
 │  ├─ script.js
 │  └─ assets/
